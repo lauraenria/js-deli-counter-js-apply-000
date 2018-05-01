@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function takeANumber(array, name) {
     array.push(name);
     return `Welcome, ${name}. You are number ${array.length} in line.`
@@ -22,4 +23,13 @@ function currentLine(array) {
 
 
     return `The line is currently:${result}`;
+=======
+
+
+function takeANumber(katzDeli, name) {
+  if(katzDeli <=0){
+    return "The line is currently empty.";
+  }
+  return true;
+>>>>>>> d7ea1c853b2a28fa6987e0736ea60da941381887
 }
